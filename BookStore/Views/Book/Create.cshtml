@@ -1,0 +1,67 @@
+﻿@model BookStore.Models.BookViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create New Book</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label">Title <span class="text-danger">*</span></label>
+                <input asp-for="Title" class="form-control" placeholder="enter title"/>
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="Author" class="control-label">Author <span class="text-danger">*</span></label>
+                <input asp-for="Author" class="form-control" placeholder="enter author" />
+                <span asp-validation-for="Author" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="Publisher" class="control-label">Publisher <span class="text-danger">*</span></label>
+                <input asp-for="Publisher" class="form-control" placeholder="enter publisher" />
+                <span asp-validation-for="Publisher" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="Genre" class="control-label">Genre <span class="text-danger">*</span></label>
+                <input asp-for="Genre" class="form-control" placeholder="enter genre" />
+                <span asp-validation-for="Genre" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="PublicationYear" class="control-label">Publication Year</label>
+                <input asp-for="PublicationYear" class="form-control" placeholder="enter publication year" />
+                <span asp-validation-for="PublicationYear" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="ISBN" class="control-label"></label>
+                <input asp-for="ISBN" class="form-control" placeholder="enter isbn" />
+                <span asp-validation-for="ISBN" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" placeholder="enter price" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" placeholder="enter quantity" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group mt-2">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

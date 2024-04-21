@@ -138,3 +138,4 @@ Thumbs.db
 /.vs/BookStore/FileContentIndex/a03a8363-1cd8-43e4-a388-2948fe32b537.vsidx
 *.pdb
 /.vs/BookStore/config/applicationhost.config
+/DAL/obj/Debug/net8.0/DAL.AssemblyInfo.cs

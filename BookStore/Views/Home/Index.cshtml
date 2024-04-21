@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <a asp-controller="Book" asp-action="Index">
+                <div class="card" onclick="redirectTo('book')">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Books</h5>
+                        <p class="card-text">Explore our vast collection of books.</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-book icon-animation" viewBox="0 0 16 16">
+                            <path d="M0 0v16s3-4 8-4 8 4 8 4V0s-3 4-8 4-8-4-8-4zm6.5 11.5v-8l2.5 1.5 2.5-1.5v8l-2.5 1.5-2.5-1.5zm0-2.69 2.5 1.44.01-.01L12 8.76v-.02l-1.01-.58-2.49 1.43-.01.01-2.5-1.44v.01l-.01-.01-1.02.58v.02l2.51 1.44.01-.01z" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-4">
+            <a asp-controller="Book" asp-action="Index">
+                <div class="card" onclick="redirectTo('customer')">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Customers</h5>
+                        <p class="card-text">Join our community of book lovers.</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle icon-animation" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM5 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm6 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm-.417 2a3.5 3.5 0 1 1-5.166 0 5.512 5.512 0 0 0-2.17 1.5.75.75 0 1 0 1.166.918c.284-.345.663-.644 1.125-.869A4.012 4.012 0 0 1 4 10c0 1.333 1.333 2 2 2h4c.667 0 2-.667 2-2a4.012 4.012 0 0 1-1.392-1.451c.462.225.841.524 1.125.869a.75.75 0 1 0 1.166-.918 5.512 5.512 0 0 0-2.17-1.5z" />
+                        </svg>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+}
