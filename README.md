@@ -13,8 +13,6 @@ Follow the [Getting Started](https://learn.microsoft.com/aspnet/core/getting-sta
 
 Also check out the [.NET Homepage](https://www.microsoft.com/net) for released versions of .NET, getting started guides, and learning resources.
 
-See the [Triage Process](https://github.com/dotnet/aspnetcore/blob/main/docs/TriageProcess.md) document for more information on how we handle incoming issues.
-
 # Identity
 
 ASP.NET Core Identity serves as the foundation for constructing ASP.NET Core web applications, encompassing membership, login, and user data functionalities. It empowers developers to seamlessly integrate login capabilities into their applications while offering flexibility in tailoring user-specific data. You can find additional information in the [ASP.NET Core Documentation](https://learn.microsoft.com/aspnet/core/security/authentication/identity).
