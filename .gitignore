@@ -56,7 +56,6 @@ Thumbs.db
 /DTO/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 /DomainEntities/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 *.v2
-*.css
 /.vs/ProjectEvaluation/bookstore.metadata.v7.bin
 /.vs/ProjectEvaluation/bookstore.projects.v7.bin
 /BookStore/BookStore.csproj.user
@@ -139,3 +138,6 @@ Thumbs.db
 *.pdb
 /.vs/BookStore/config/applicationhost.config
 /DAL/obj/Debug/net8.0/DAL.AssemblyInfo.cs
+*.scp.css
+/BookStore/obj/Debug/net8.0/scopedcss/bundle/BookStore.styles.css
+/BookStore/Views/Shared/_Layout.cshtml.css
