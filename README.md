@@ -14,7 +14,7 @@ Also check out the [.NET Homepage](https://www.microsoft.com/net) for released v
 
 # Identity
 
-ASP.NET Core Identity serves as the foundation for constructing ASP.NET Core web applications, encompassing membership, login, and user data functionalities. It empowers developers to seamlessly integrate login capabilities into their applications while offering flexibility in tailoring user-specific data. You can find additional information in the [ASP.NET Core Documentation](https://learn.microsoft.com/aspnet/core/security/authentication/identity).
+ASP.NET Core Identity serves as the foundation for constructing ASP.NET Core web applications, encompassing membership, login, and user data functionalities. It empowers developers to seamlessly integrate login capabilities into their applications while offering flexibility in tailoring user-specific data. You can find additional information in the [Identity on ASP.NET Core](https://learn.microsoft.com/aspnet/core/security/authentication/identity).
 
 ## Description
 
